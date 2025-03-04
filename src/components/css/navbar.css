@@ -1,0 +1,39 @@
+.navbar { 
+    background-color: #1A1A1A;
+    padding: 10px 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container .logo {
+    height: 50px; /* Ajusta el tamaño según sea necesario */
+}
+
+.nav-menu ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+.nav-menu ul li {
+    border: 2px solid white; /* Borde blanco */
+    padding: 5px 30px; /* Espaciado interno */
+    border-radius: 50px; /* Bordes redondeados */
+}
+
+.nav-menu ul li:hover {
+    background-color: aliceblue;
+}
+
+.nav-menu ul li:hover a {
+    color: #1A1A1A;
+}
+
+.nav-menu ul li a {
+    color: white;
+    text-decoration: none;
+}
