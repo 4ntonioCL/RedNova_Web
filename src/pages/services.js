@@ -1,5 +1,3 @@
-import './css/navbar.css';
-
 function Navbar() {
     return (
         <div className="navbar">
@@ -21,4 +19,3 @@ function Navbar() {
 }
 
 export default Navbar;
-// <img src="/ruta-del-logo.png" alt="Logo" className="logo" />
