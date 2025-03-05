@@ -3,16 +3,16 @@ import NavBar from '../components/navbar'
 import Footer from '../components/footer'
 
 
-function Services() {
+function Soporte() {
   return (
     <body className="App">
       <NavBar />
 
-      <h1>Services</h1>
+      <h1>Soporte</h1>
 
       <Footer />
     </body>
   );
 }
 
-export default Services;
+export default Soporte;

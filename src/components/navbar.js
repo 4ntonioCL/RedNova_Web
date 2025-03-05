@@ -11,8 +11,8 @@ function Navbar() {
                     <ul>
                         <li><a href="/">Inicio</a></li>
                         <li><a href="/services">Servicios</a></li>
-                        <li><a href="#">Planes</a></li>
-                        <li><a href="#">Soporte</a></li>
+                        <li><a href="/planes">Planes</a></li>
+                        <li><a href="/soporte">Soporte</a></li>
                     </ul>
                 </nav>
             </header>
