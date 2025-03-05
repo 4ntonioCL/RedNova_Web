@@ -11,7 +11,7 @@ function Services() {
       <NavBar />
 
       <div>
-        <h1 className='title'>Servicios</h1>
+        <h1 className='title'>Nuestros Servicios</h1>
 
         <div className='servicios'>
           <Servicio nombre="Prueba" descripcion="Esto es una prueba de la descripción de un servicio" />

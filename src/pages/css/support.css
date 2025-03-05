@@ -1,0 +1,77 @@
+.title {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 3rem;
+}
+
+/* Contenedor principal de soporte */
+.soporte-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Contenido */
+  .soporte-content {
+    padding: 30px;
+    margin-top: 20px;
+  }
+  
+  /* Título principal */
+  .soporte-title {
+    font-size: 2.5rem;
+    color: #B0B0B0;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  /* Subtítulos de las secciones */
+  .soporte-subtitle {
+    font-size: 2rem;
+    color: #444;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #292929;
+    padding-bottom: 5px;
+  }
+  
+  /* Estilo para las preguntas frecuentes */
+  .faq {
+    margin-top: 20px;
+  }
+  
+  .faq-item {
+    margin-bottom: 15px;
+  }
+  
+  .faq-item h3 {
+    font-size: 1.25rem;
+    color: white;
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  .faq-item p {
+    font-size: 1rem;
+    color: white;
+    margin: 10px 0 0 20px;
+    line-height: 1.6;
+  }
+  
+  /* Estilo para la lista de servicios */
+  .servicios-list {
+    list-style: none;
+    padding-left: 20px;
+  }
+  
+  .servicios-list li {
+    font-size: 1.1rem;
+    color: white;
+    margin: 10px 0;
+  }
+  
+  .servicios-list li::before {
+    content: '📌';
+    margin-right: 10px;
+    color: #007BFF;
+  }
+  
