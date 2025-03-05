@@ -42,6 +42,7 @@
 .form-group textarea:focus {
     border-bottom: 2px solid white; /* Mantiene el mismo borde al hacer focus */
     outline: none; /* Asegura que no aparezca ningún borde adicional */
+    background-color: transparent;
 }
 
 
