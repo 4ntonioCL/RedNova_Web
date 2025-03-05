@@ -1,0 +1,80 @@
+.contact-form {
+    background-color: #111111;
+    margin: 10%;
+    padding: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-radius: 100px;
+    box-shadow: 5px 5px 10px rgb(110, 110, 110);
+}
+
+.name-email {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    align-items: center;
+    width: 100%; /* Asegura que este contenedor tenga el mismo ancho */
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 5%;
+    width: 100%; /* Esto hace que cada grupo de campos ocupe el 100% del contenedor */
+}
+
+.form-group input,
+.form-group textarea {
+    height: 30px;
+    box-shadow: none;
+    background-color: transparent;
+    border: 0px solid rgb(63, 63, 63);
+    border-bottom: 2px solid white;
+    outline: none; /* Quita el borde por defecto al hacer focus */
+    padding-left: 10px;
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+
+/* Si deseas que no se cambie el borde en el focus, añade esto: */
+.form-group input:focus,
+.form-group textarea:focus {
+    border-bottom: 2px solid white; /* Mantiene el mismo borde al hacer focus */
+    outline: none; /* Asegura que no aparezca ningún borde adicional */
+}
+
+
+.form-group input {
+    width: 100%; /* Asegura que el input ocupe todo el espacio disponible */
+}
+
+/* Asegura que el textarea tenga el mismo ancho */
+.form-group textarea {
+    width: 100%; /* El textarea ahora ocupa el 100% del contenedor */
+    height: 100px; /* Ajusta la altura del textarea si es necesario */
+    max-width: 100%; /* Asegura que no se expanda más allá del contenedor */
+    margin: 0 auto; /* Centra el textarea */
+}
+
+label {
+    color: #B0B0B0;
+}
+
+/* Estilo del botón */
+button {
+    border: 2px solid white; /* Borde blanco */
+    padding: 5px 30px; /* Espaciado interno */
+    border-radius: 50px; /* Bordes redondeados */
+    background-color: #111111;
+    color: white;
+    padding: 15px 47%;
+    display: block; /* Hacemos que el botón sea un bloque para poder centrarlo */
+    margin: 0 auto; /* Esto centra el botón en su contenedor */
+    font-size: large;
+}
+
+button:hover {
+    background-color: white;
+    color: #111111;
+}

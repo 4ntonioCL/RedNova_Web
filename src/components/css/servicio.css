@@ -11,3 +11,7 @@
 .servicio:hover {
     transform: scale(1.1);
 }
+
+.servicio h2 {
+    color: white;
+}
