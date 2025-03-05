@@ -1,0 +1,21 @@
+.App {
+    height: 100vh; /* Toma toda la altura de la pantalla */
+    overflow-y: auto; /* Permite desplazamiento vertical */
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+}
+
+.servicios {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-right: 20vh;
+    padding-left: 20vh;
+    margin-bottom: 30vh;
+}
+
+.title {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 3rem;
+}
