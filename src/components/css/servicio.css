@@ -1,0 +1,13 @@
+.servicio {
+    color: white;
+    padding: 10px;
+    text-align: center;
+    background-color: #111111;
+    margin: 20px;
+    border-radius: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.servicio:hover {
+    transform: scale(1.1);
+}

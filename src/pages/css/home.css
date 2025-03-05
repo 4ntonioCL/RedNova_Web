@@ -1,22 +1,42 @@
-body {
-    margin-top: 0;
-  }
-  
-  .divFrase {
-    display: grid;
-    place-items: center;
-    margin-top: 20vh;
-  }
-  
-  .svg_seguridad {
-    background-color: transparent;
-    color: white;
-    align-items: center;
-    position: relative;
-  }
-  
-  .frase {
-    color: #FFFFFF;
-    text-align: center;
-  
-  }
+
+.App {
+  height: 100vh; /* Toma toda la altura de la pantalla */
+  overflow-y: auto; /* Permite desplazamiento vertical */
+  display: flex;
+  flex-direction: column;
+  margin-top: 0;
+}
+
+.divFrase {
+  display: grid;
+  place-items: center;
+  margin-top: 20vh;
+  margin-bottom: 20vh;
+}
+
+.svg_seguridad {
+  background-color: transparent;
+  color: white;
+  align-items: center;
+  position: relative;
+}
+
+.frase {
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.serv_title {
+  color: #B0B0B0;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.servicios {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding-right: 20vh;
+  padding-left: 20vh;
+}
+
